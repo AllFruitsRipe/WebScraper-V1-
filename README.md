@@ -1,40 +1,42 @@
 # Scrapy Web Scraper
 This Python script provides a simple web scraping solution using Scrapy, a powerful web crawling and scraping framework. It extracts data from a webpage and exports it to a CSV file.
 
-# Prerequisites
+## Prerequisites
 Before running the script, make sure you have the following installed:
 
 Python 3.x
 Scrapy (can be installed via pip: pip install scrapy)
-Usage
-Clone the Repository:
 
-bash
-Copy code
-git clone https://github.com/your_username/your_repository.git
-Navigate to the Directory:
+## Usage
+### Clone the Repository:
 
-bash
-Copy code
-cd your_repository
-Update the Spider:
+Copy code : git clone https://github.com/your_username/your_repository.git
 
-Open the spiders/spidey.py file.
-Replace 'INSERT_URL_HERE' with the URL of the website you want to scrape.
-Replace 'XPATH_NOTATION_HERE' with the appropriate XPath notation to extract the desired data.
-Run the Spider:
+### Navigate to the Directory:
 
-Copy code
-scrapy crawl Spidey
-Export Data to CSV:
+Copy code: cd your_repository
+
+### Update the Spider:
+
+- Open the spiders/spidey.py file.
+- Replace 'INSERT_URL_HERE' with the URL of the website you want to scrape.
+- Replace 'XPATH_NOTATION_HERE' with the appropriate XPath notation to extract the desired data.
+  
+### Run the Spider:
+
+Copy code: scrapy crawl Spidey
+
+### Export Data to CSV:
 
 The extracted data will be saved in a CSV file named first_scrape.csv.
-Customization
+
+### Customization
 You can customize the Spider by modifying the spiders/spidey.py file to extract different data or scrape from different websites.
-Contributing
+
+### Contributing
 Contributions are welcome! If you have any suggestions, improvements, or bug fixes, feel free to open an issue or create a pull request.
 
-License
+### License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Make sure to replace your_username and your_repository in the GitHub clone URL with your actual GitHub username and repository name. Also, remember to include a license file (e.g., LICENSE.txt) in your repository and update the license section in the README if you choose a license other than MIT.
