@@ -8,25 +8,25 @@ Python 3.x
 Scrapy (can be installed via pip: pip install scrapy)
 
 ## Usage
-### Clone the Repository:
+#### Clone the Repository:
 
 Copy code : git clone [https://github.com/your_username/your_repository.git](https://github.com/AllFruitsRipe/WebScraper-V1-)
 
-### Navigate to the Directory:
+#### Navigate to the Directory:
 
 Copy code: cd your_repository
 
-### Update the Spider:
+#### Update the Spider:
 
 - Open the spiders/spidey.py file.
 - Replace 'INSERT_URL_HERE' with the URL of the website you want to scrape.
 - Replace 'XPATH_NOTATION_HERE' with the appropriate XPath notation to extract the desired data.
   
-### Run the Spider:
+#### Run the Spider:
 
 Copy code: scrapy crawl Spidey
 
-### Export Data to CSV:
+#### Export Data to CSV:
 
 The extracted data will be saved in a CSV file named first_scrape.csv.
 
