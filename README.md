@@ -30,6 +30,15 @@ Copy code: scrapy crawl Spidey
 
 The extracted data will be saved in a CSV file named first_scrape.csv.
 
+## Features:
+Easy Configuration: The scraper is easy to configure and customize. You can specify the target URL and define XPath expressions to extract specific data elements from the webpage.
+
+Data Extraction: Using XPath notation, the scraper extracts data from the target webpage. You can define the XPath expressions in the spider file to specify which elements of the webpage to scrape.
+
+CSV Export: Extracted data is exported to a CSV file named first_scrape.csv. This file contains the scraped data in a structured format, making it easy to analyze and manipulate using spreadsheet software or other tools.
+
+Customization: You can easily customize the scraper to scrape data from different websites or extract different types of information. Simply modify the spider file (spiders/spidey.py) to adjust the scraping logic according to your requirements.
+
 ## Customization
 You can customize the Spider by modifying the spiders/spidey.py file to extract different data or scrape from different websites.
 
