@@ -4,8 +4,8 @@ This Python script provides a simple web scraping solution using Scrapy, a power
 ## Prerequisites
 Before running the script, make sure you have the following installed:
 
-Python 3 
-Scrapy (can be installed via pip: pip install scrapy)
+- Python 3 
+- Scrapy (can be installed via pip: pip install scrapy)
 
 ## Usage
 #### Clone the Repository:
