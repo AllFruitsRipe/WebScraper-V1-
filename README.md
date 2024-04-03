@@ -44,4 +44,4 @@ The extracted data will be saved in a CSV file named first_scrape.csv.
 Contributions are welcome! If you have any suggestions, improvements, or bug fixes, feel free to open an issue or create a pull request.
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This web scraper is open-source software licensed under the MIT License. You are free to use, modify, and distribute the code according to the terms specified in the LICENSE file.
