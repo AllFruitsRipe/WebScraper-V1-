@@ -39,8 +39,6 @@ CSV Export: Extracted data is exported to a CSV file named first_scrape.csv. Thi
 
 Customization: You can easily customize the scraper to scrape data from different websites or extract different types of information. Simply modify the spider file (spiders/spidey.py) to adjust the scraping logic according to your requirements.
 
-## Customization
-You can customize the Spider by modifying the spiders/spidey.py file to extract different data or scrape from different websites.
 
 ## Contributing
 Contributions are welcome! If you have any suggestions, improvements, or bug fixes, feel free to open an issue or create a pull request.
