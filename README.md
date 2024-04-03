@@ -10,7 +10,7 @@ Scrapy (can be installed via pip: pip install scrapy)
 ## Usage
 ### Clone the Repository:
 
-Copy code : git clone https://github.com/your_username/your_repository.git
+Copy code : git clone [https://github.com/your_username/your_repository.git](https://github.com/AllFruitsRipe/WebScraper-V1-)
 
 ### Navigate to the Directory:
 
@@ -38,5 +38,3 @@ Contributions are welcome! If you have any suggestions, improvements, or bug fix
 
 ### License
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-Make sure to replace your_username and your_repository in the GitHub clone URL with your actual GitHub username and repository name. Also, remember to include a license file (e.g., LICENSE.txt) in your repository and update the license section in the README if you choose a license other than MIT.
