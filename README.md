@@ -1,4 +1,4 @@
-#                                 Scrapy Web Scraper
+# Scrapy Web Scraper
 This Python script provides a simple web scraping solution using Scrapy, a powerful web crawling and scraping framework. It extracts data from a webpage and exports it to a CSV file.
 
 ## Prerequisites
