@@ -30,11 +30,11 @@ Copy code: scrapy crawl Spidey
 
 The extracted data will be saved in a CSV file named first_scrape.csv.
 
-### Customization
+## Customization
 You can customize the Spider by modifying the spiders/spidey.py file to extract different data or scrape from different websites.
 
-### Contributing
+## Contributing
 Contributions are welcome! If you have any suggestions, improvements, or bug fixes, feel free to open an issue or create a pull request.
 
-### License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
