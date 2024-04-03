@@ -1,3 +1,4 @@
+# Sample codeV1
 import scrapy
 from scrapy.crawler import CrawlerProcess
 
@@ -22,7 +23,7 @@ class Spidey(scrapy.Spider):
         yield item
 
 
-# Run the Spider and export data to CSV
+ Run the Spider and export data to CSV
 process = CrawlerProcess(settings={
     'FEED_FORMAT': 'csv',
     'FEED_URI': 'first_scrape.csv'  # Corrected: added .csv extension
