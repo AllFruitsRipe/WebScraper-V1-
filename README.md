@@ -1,13 +1,13 @@
 #                                 Scrapy Web Scraper
 This Python script provides a simple web scraping solution using Scrapy, a powerful web crawling and scraping framework. It extracts data from a webpage and exports it to a CSV file.
 
-### Prerequisites
+## Prerequisites
 Before running the script, make sure you have the following installed:
 
 Python 3.x
 Scrapy (can be installed via pip: pip install scrapy)
 
-### Usage
+## Usage
 #### Clone the Repository:
 
 Copy code : git clone [https://github.com/your_username/your_repository.git](https://github.com/AllFruitsRipe/WebScraper-V1-)
@@ -30,11 +30,11 @@ Copy code: scrapy crawl Spidey
 
 The extracted data will be saved in a CSV file named first_scrape.csv.
 
-### Customization
+## Customization
 You can customize the Spider by modifying the spiders/spidey.py file to extract different data or scrape from different websites.
 
-### Contributing
+## Contributing
 Contributions are welcome! If you have any suggestions, improvements, or bug fixes, feel free to open an issue or create a pull request.
 
-### License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
