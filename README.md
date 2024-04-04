@@ -60,13 +60,13 @@ I created a custom web scraper using Scrapy, a Python framework for web crawling
 
 ## Why I Created It
 
-### Data Collection Needs:
+#### Data Collection Needs:
 - The project required a large volume of data from various websites to perform analysis, research, or other tasks.
 
-### Customization:
+#### Customization:
 - Existing datasets or APIs did not provide the required data in the desired format or granularity. Building a custom web scraper allowed me to extract exactly the information needed.
 
-### Automation:
+#### Automation:
 - Manually collecting data from websites is time-consuming and impractical for large-scale projects. By automating the data extraction process with a web scraper, I can save time and effort.
 
 
@@ -74,17 +74,17 @@ I created a custom web scraper using Scrapy, a Python framework for web crawling
 
 ## How I Created It
 
-### Framework Selection: 
+#### Framework Selection: 
 I chose Scrapy due to its robust features, scalability, and flexibility. Scrapy provides powerful tools for web scraping, such as XPath and CSS selectors for data extraction, built-in support for handling pagination and asynchronous requests, and convenient pipeline for data processing.
 
-### Spider Development:
+#### Spider Development:
 I developed a Spider class in Scrapy, defining the target website(s), specifying how to start the scraping process, and implementing logic to extract desired data from the web pages. This involved writing XPath or CSS selectors to locate and extract specific elements from the HTML structure of the web pages.
 
-### Pipeline Setup: 
+#### Pipeline Setup: 
 I configured Scrapy pipelines to process the extracted data, perform any necessary cleaning or transformation, and store it in the desired format (e.g., CSV, JSON, database).
 
-### Testing and Refinement: 
+#### Testing and Refinement: 
 I tested the web scraper to ensure it functions correctly and captures the intended data accurately. I iteratively refined the scraper's logic and selectors based on test results and observed data.
 
-### Execution: 
+#### Execution: 
 Once satisfied with the scraper's performance, I executed it to crawl the target websites, extract the required data, and store it for further analysis or integration into my project.
