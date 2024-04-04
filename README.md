@@ -40,23 +40,6 @@ The extracted data will be saved in a CSV file named first_scrape.csv.
 - Customization: You can easily customize the scraper to scrape data from different websites or extract different types of information. Simply modify the spider file (spiders/spidey.py) to adjust the scraping logic according to your requirements.
 
 
-## Contributing
-Contributions are welcome! If you have any suggestions, improvements, or bug fixes, feel free to open an issue or create a pull request.
-
-## License
-This web scraper is open-source software licensed under the MIT License. You are free to use, modify, and distribute the code according to the terms specified in the LICENSE file.
-
-
-
-
-
-
-
-## Description:
-
-I created a custom web scraper using Scrapy, a Python framework for web crawling and scraping, to gather data for a separate project. The purpose of the web scraper is to extract specific information from targeted websites relevant to my project's requirements.
-
-
 
 ## Why I Created It
 
@@ -68,7 +51,6 @@ I created a custom web scraper using Scrapy, a Python framework for web crawling
 
 #### Automation:
 - Manually collecting data from websites is time-consuming and impractical for large-scale projects. By automating the data extraction process with a web scraper, I can save time and effort.
-
 
 
 
@@ -88,3 +70,13 @@ I tested the web scraper to ensure it functions correctly and captures the inten
 
 #### Execution: 
 Once satisfied with the scraper's performance, I executed it to crawl the target websites, extract the required data, and store it for further analysis or integration into my project.
+
+
+
+
+## Contributing
+Contributions are welcome! If you have any suggestions, improvements, or bug fixes, feel free to open an issue or create a pull request.
+
+## License
+This web scraper is open-source software licensed under the MIT License. You are free to use, modify, and distribute the code according to the terms specified in the LICENSE file.
+
