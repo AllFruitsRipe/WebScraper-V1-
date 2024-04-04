@@ -1,3 +1,6 @@
+import scrapy
+from scrapy.crawler import CrawlerProcess
+
 # Define a class for the Spider
 class Spidey(scrapy.Spider):
     name = "Spidey"  # Spider's name
