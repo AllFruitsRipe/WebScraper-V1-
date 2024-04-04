@@ -10,21 +10,21 @@ Before running the script, make sure you have the following installed:
 ## Usage
 #### Clone the Repository:
 
-Copy code : git clone https://github.com/AllFruitsRipe/WebScraper-V1-.git
+Clone the repository using the following command: git clone https://github.com/AllFruitsRipe/WebScraper-V1-.git
 
 #### Navigate to the Directory:
 
-Copy code: cd your_repository
+Navigate to the directory using the following command: cd your_repository
 
 #### Update the Spider:
 
 - Open the spiders/spidey.py file.
-- Replace 'INSERT_URL_HERE' with the URL of the website you want to scrape.
-- Replace 'XPATH_NOTATION_HERE' with the appropriate XPath notation to extract the desired data.
+- Replace 'https://en.wikipedia.org/wiki/Kobe_Bryant' with the URL of the website you want to scrape.
+- Replace '//*[@id="mw-content-text"]/div[1]/p[2]' with the appropriate XPath notation to extract the desired data.
   
 #### Run the Spider:
 
-Copy code: scrapy crawl Spidey
+Run the Spider using the following command: scrapy crawl Spidey
 
 #### Export Data to CSV:
 
