@@ -6,12 +6,12 @@ class Spidey(scrapy.Spider):
     name = "Spidey"
 
     def start_requests(self):
-        url = 'INSERT_URL_HERE'  # Replace INSERT_URL_HERE with the actual URL
+        url = 'https://en.wikipedia.org/wiki/Kobe_Bryant'  # Replace INSERT_URL_HERE with the actual URL
         yield scrapy.Request(url=url, callback=self.parse_one)
 
     def parse_one(self, response):
         # Extracting data from the webpage
-        quote_header = response.xpath('XPATH_NOTATION_HERE').getall()  # Replace XPATH_NOTATION_HERE with the actual XPath notation
+        quote_header = response.xpath('//*[@id="mw-content-text"]/div[1]/p[2]').getall()  # Replace XPATH_NOTATION_HERE with the actual XPath notation
 
         # Storing extracted data in a dictionary
         item = {'quote_header': quote_header}
