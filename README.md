@@ -10,7 +10,7 @@ Before running the script, make sure you have the following installed:
 ## Usage
 #### Clone the Repository:
 
-Copy code : git clone [https://github.com/AllFruitsRipe/WebScraper-V1-.git]
+Copy code : git clone https://github.com/AllFruitsRipe/WebScraper-V1-.git
 
 #### Navigate to the Directory:
 
